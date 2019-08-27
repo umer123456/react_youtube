@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #FFFFFF;
+  font-family: sans-serif; }
+
+.header {
+  background: white;
+  box-shadow: 0 0px 5px lightgrey;
+  text-align: center;
+  padding: 20px 0; }
+  .header input[type="text"] {
+    height: 30px;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 0 10px; }
+  .header input[type="submit"] {
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+    background: #F8F8F8;
+    border-color: #F8F8F8;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer; }
+
+.content {
+  padding: 20px 50px; }
+  .content .left {
+    width: 60%;
+    float: left; }
+  .content .right {
+    width: calc(40% - 40px);
+    margin: 50px 200px;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid black; }
+    .content .right .top {
+      background: #EEEEEE;
+      text-align: left;
+      padding: 10px 20px;
+      box-sizing: border-box; }
+      .content .right .top h4 {
+        font-weight: 400;
+        margin-bottom: 5px; }
+    .content .right .pan .video-item {
+      box-sizing: border-box;
+      padding: 0 10px 20px 10px;
+      width: 100%;
+      margin: 5px 0; }
+      .content .right .pan .video-item .thumbnail {
+        width: 40%;
+        float: left; }
+        .content .right .pan .video-item .thumbnail img {
+          width: 100%;
+          height: auto; }
+      .content .right .pan .video-item .details {
+        width: 60%;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box; }
+
+/*# sourceMappingURL=style.css.map*/
